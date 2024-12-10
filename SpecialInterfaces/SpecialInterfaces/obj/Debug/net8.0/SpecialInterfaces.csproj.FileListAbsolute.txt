@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\bin\Debug\net8.0\SpecialInterfaces.exe
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\bin\Debug\net8.0\SpecialInterfaces.deps.json
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\bin\Debug\net8.0\SpecialInterfaces.runtimeconfig.json
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\bin\Debug\net8.0\SpecialInterfaces.dll
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\bin\Debug\net8.0\SpecialInterfaces.pdb
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\obj\Debug\net8.0\SpecialInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\obj\Debug\net8.0\SpecialInterfaces.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\obj\Debug\net8.0\SpecialInterfaces.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\obj\Debug\net8.0\SpecialInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\obj\Debug\net8.0\SpecialInterfaces.sourcelink.json
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\obj\Debug\net8.0\SpecialInterfaces.dll
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\obj\Debug\net8.0\refint\SpecialInterfaces.dll
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\obj\Debug\net8.0\SpecialInterfaces.pdb
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\obj\Debug\net8.0\SpecialInterfaces.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\.Net-Special-Interfaces\SpecialInterfaces\SpecialInterfaces\obj\Debug\net8.0\ref\SpecialInterfaces.dll

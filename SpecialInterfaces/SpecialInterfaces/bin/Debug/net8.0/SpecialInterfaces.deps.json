@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SpecialInterfaces/1.0.0": {
+        "runtime": {
+          "SpecialInterfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SpecialInterfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
