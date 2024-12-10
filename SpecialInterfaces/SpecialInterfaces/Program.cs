@@ -167,16 +167,12 @@ using System.Data.SqlClient;
 
 #region IDisposeble
 
+using MyDatabase database = new MyDatabase();
+
 public class MyDatabase:IDisposable
 {
     SqlConnection connection;
     SqlCommand command;
-
-    public MyDatabase(SqlConnection connection, SqlCommand command)
-    {
-        this.connection = connection;
-        this.command = command;
-    }
 
     public void Dispose()
     {
