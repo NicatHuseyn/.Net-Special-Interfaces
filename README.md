@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/044bd2b7-0e4e-4bac-9f21-eba39ca7dc85)<h1><strong>Xüsusi bəyan edilmiş interface-lər</strong></h1>
+<h1><strong>Xüsusi bəyan edilmiş interface-lər</strong></h1>
 
 <p>C#-da bəzi interface-lər vardır ki, əvvəlcədən .Net altında özəl olaraq bəyan edilmiş və bizlərin xidmətinə verilmişdir. Bu interface sayəsində bir class və ya bir struct .Net kitabxanası tərəfindən bəyan edilmiş olan müəyyən davranışları həyata keçiriə bilirik. 
 Məsələn, IClonable interface-i bir obyektin klonlana bildiyini ifadə edir.
@@ -30,7 +30,6 @@ Bu interface-i istər iki obyektin dəyərlərini qarşılaşdırmaq üçün və
 <div style = "width: 500px; margin:20px">
   <img  style="width: 500px" src = "https://github.com/user-attachments/assets/6a5612fa-65a2-406e-88e4-99d5b443c35e"/>
 </div>
-</hr>
 
 Bu şəkildə 2 obyekt bəyan edirik. İndi bu 2 obyekti qarşılaşdıracağıqsa, bu obyektləri hansı özəlliklərinə görə qarşılaşdıracağımızın məsuliyyətini üzərinə götürən bir class yazmalıyıq.
 </hr>
@@ -38,7 +37,6 @@ Bu şəkildə 2 obyekt bəyan edirik. İndi bu 2 obyekti qarşılaşdıracağıq
 <div style = "width: 600px; margin: 20px;">
   <img style="width: 500px"  src = "https://github.com/user-attachments/assets/e2bb7db4-ab20-467d-b18c-02d9a712d46f"/>
 </div>
-</hr>
 Buradakı məntiq budur ki, biz burada age dəyərinə görə qarşılaşdırma edirik. Buradakı Compare metodunun birinci parametrin dəyəri ikinci parametrin dəyərindən böyük olarsa, geriyə “1” dəyərini dönəcək. Bir birincə bərabər olarsa, “0”, birinci parametr ikinci parametrdən kiçik olarsa, “-1” dəyərini dönəcək. Bizlər <strong>AgeComparer</strong> class-ını hər yerdə istifadə edə bilərik.
 </hr>
 
@@ -46,7 +44,6 @@ Buradakı məntiq budur ki, biz burada age dəyərinə görə qarşılaşdırma 
 <div style = "width: 500px; margin: 20px; margin:20px">
   <img style="width: 500px"  src = "https://github.com/user-attachments/assets/1773a4bb-335b-493f-9fc1-c9f5179940c8"/>
 </div>
-</hr>
 
 Birdən çox class-ımız olsa və bunlar arasında bir colleciton içərisində sıralama etmək istəsək. Bu zaman aşağıdakı kimi edə bilərik.
 
@@ -54,8 +51,7 @@ Birdən çox class-ımız olsa və bunlar arasında bir colleciton içərisində
 <div style = "width: 500px; margin: 20px; margin:20px">
   <img style="width: 500px"  src = "https://github.com/user-attachments/assets/088cd701-23ec-4f6d-ac68-65ffe02c2e7d"/>
 </div>
-</hr>
-<br>
+
 
 <h2><strong>IComparable Interface-i:</strong></h2>
 
@@ -67,7 +63,7 @@ Birdən çox class-ımız olsa və bunlar arasında bir colleciton içərisində
   <img style="width: 500px" src ="https://github.com/user-attachments/assets/f87b9d20-9b2c-43d7-b665-4b7cc23b0ce5"/>
 </div>
 <br>
-<hr>
+
 
 
 <h2><strong>ICloneable Interface-i:</strong></h2>
@@ -90,11 +86,8 @@ Birdən çox class-ımız olsa və bunlar arasında bir colleciton içərisində
   C#-da bu interface çox da məsləhət görülmür, buna görə də Prototype design pattern istifadə edilməsi məsləhət görülür.
 </p>
 <br>
-<hr>
 
-##  INotifyPropertyChanged
 <h2><strong>INotifyPropertyChanged Interface-i:</strong></h2>
-<hr>
 <p>
   InotifyPropertyChanged interfeysi bir class-ın property dəyərləri dəyişdirildikdə, bu dəyişiklikləri xaricə bildirmək üçün istifadə edilir.<br>
   Bu adətən user interfeysində avtomatik update eləmək məqsədilə istifadə edilən data binding hallarında istifadə olunur.
@@ -110,7 +103,6 @@ Birdən çox class-ımız olsa və bunlar arasında bir colleciton içərisində
     <img style="width: 500px" src ="https://github.com/user-attachments/assets/38319ff7-ced4-4975-8593-c9573a3f87b5"/>
   </div>
   <br>
-  <hr>
   <div style = "width: 500px; margin: 20px; margin:20px">
     <img style="width: 500px" src ="https://github.com/user-attachments/assets/7f6de76f-72d2-4898-845b-d3f58f243a05"/>
   </div>
@@ -118,11 +110,10 @@ Birdən çox class-ımız olsa və bunlar arasında bir colleciton içərisində
     <img style="width: 500px" src ="https://github.com/user-attachments/assets/0516c64b-9403-4ca6-919c-d67b5d31a212"/>
   </div>
   <br>
-  <hr>
+
   
-//#  IEqutable
 <h2><strong>IEquatable Interface-i:</strong></h2>
-<hr>
+
 <p>
 IEquatable interfeysi bir obyektin digər obyektlə bərabərlik nöqteyi-nəzərdən qarşılaşdırıla bilən olduğunu müəyyən etmək üçün istifadə edilir.
 </p>
@@ -136,11 +127,8 @@ IEquatable interfeysi bir obyektin digər obyektlə bərabərlik nöqteyi-nəzə
   Belə hallar üçün Recordlar istifadə etmək daha uyğundur, çünki record-larda property-lər daha ön plandadır.
 </p>
   <br>
-  <hr>
 
-  // # IEnumerable
 <h2><strong>IEnumerable Interface-i:</strong></h2>
-<hr>
 <p>
   IEnumerable interfeysi bir obyektin üzərində foreach iterasiyası ilə gəzinməyə imkan verən bir interfeysdir. 
 </p>
@@ -162,22 +150,19 @@ IEquatable interfeysi bir obyektin digər obyektlə bərabərlik nöqteyi-nəzə
   yerinə yetirir.
 </p>
 <br>
-<hr>
 
-// # IDisposabel
 <h2><strong>IDisposeble Interface-i:</strong></h2>
-<hr>
+
 <p>
   IDisposeble interfeysi .Net-də yaddaş idarəsini kontrol etmək üçün istifadə edilən bir interfeysdir. Bu interface ilə, bir class-ın qaynaqlarını sərbəst buraxmasını, yəni dispose etməsini edə bilərik. Bunun üçün isə using keyword-ünü istifadə edə bilərik.
 </p>
 <p>
   Dispose anlayışı geniş bir anlayışdır. Bu əməliyyat obyektin yox edilməsindən bir öncəki addımdır.
 </p>
-<hr>
 <div style = "width: 500px; margin: 20px; margin:20px">
   <img style="width: 500px" src ="https://github.com/user-attachments/assets/3f800d4e-11de-4e2c-9920-e0ef2f00196c"/>
 </div>
-<hr>
+
   <div style = "width: 500px; margin: 20px; margin:20px">
     <img style="width: 500px" src = "https://github.com/user-attachments/assets/84a3dc51-c607-43a7-99fb-600f30349470"/ >
   </div>
